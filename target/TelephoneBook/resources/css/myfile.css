@@ -1,0 +1,15 @@
+.textErr{
+	color: red;
+}
+
+.divErr{
+	color: blue;
+	margin-top: 10px;
+	margin-left: 10px;	
+	margin-bottom: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+

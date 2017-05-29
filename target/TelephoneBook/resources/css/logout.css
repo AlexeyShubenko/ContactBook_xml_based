@@ -1,0 +1,51 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.divTop{
+	background-color: #0080ff;
+	width: 99%;	
+	height: 10%;
+	position: fixed; 
+	border-radius: 5px;
+}
+
+.logOut{
+	padding-top: 100px;
+	margin: 5%;
+}
+
+.button{
+	background: #a1d8f0;
+	color: black;
+	border: 1px solid;
+	border-radius: 8px;
+	font-size: 14pt;
+	padding: 3px;
+	margin: 3px;
+	font-family: 'Times New Roman';
+	margin-left: 15%;
+}
+
+.divRight{
+	float: right;
+	color: white;
+	margin-top:2%;
+	margin-right: 5%;
+}
+
+h1#NoteCentr{
+	 margin-top: 6%;
+	 margin-left:30%;
+	 letter-spacing: 5px;
+	 color: white;
+     text-shadow: 1px 1px 2px black, 0 0 5px darkblue;
+     position: fixed;
+}
+.buttons{
+	position: fixed;
+	margin-top:12%; 
+	margin-left: 30%;
+	width:500px;
+}

@@ -1,0 +1,52 @@
+body{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    font-family: 'Times New Roman';
+	}
+
+table{
+	border-collapse: collapse;
+ 	text-align: center;
+ 	width: 100%;
+}
+
+th{
+	background: #b0e0e6;
+	height: 50px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+td{
+	height: 30px;
+}
+
+td#noneBorder{
+/* 	border: none; */
+	border-color: white;
+	width: 30px;
+}
+
+a.button{
+	background: #a1d8f0;
+	color: black;
+	border: 1px solid;
+	border-radius: 8px;
+	font-size: 14pt;
+	padding: 3px;
+	margin: 3px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+h1#NoteCentr{
+	 text-align: center;
+	 letter-spacing: 5px;
+	 color: white;
+     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+

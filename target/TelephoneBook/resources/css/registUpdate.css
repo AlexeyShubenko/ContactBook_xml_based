@@ -1,0 +1,55 @@
+.textErr{
+	color: red;
+}
+
+/*background: #b0e0e6;*/
+#head{
+	height: 30px;
+	width: auto;
+}
+
+.divErr{
+	color: blue;
+	margin-top: 10px;
+	margin-left: 10px;	
+	margin-bottom: 10px;
+}
+
+body{
+    padding-top: 3%;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 25%;
+    font-family: 'Times New Roman';
+	}
+
+table{
+	border-collapse: collapse;
+ 	text-align: center;
+}
+
+td#noneBorder{
+	border-color: white;
+}
+
+.button{
+	background: #a1d8f0;
+	color: black;
+	border: 1px solid;
+	border-radius: 8px;
+	font-size: 12pt;
+	padding: 3px;
+	margin-top: 10px;
+	font-family: 'Times New Roman';
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+h1#NoteCentr{
+	 text-align: inherit;
+	 letter-spacing: 5px;
+	 color: white;
+     text-shadow: 1px 1px 2px black, 0 0 5px darkblue;
+}
+

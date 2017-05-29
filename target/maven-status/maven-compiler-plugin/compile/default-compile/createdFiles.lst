@@ -1,0 +1,14 @@
+com\test\javaproject\dao\UserService.class
+com\test\javaproject\dao\HibernateUtil.class
+com\test\javaproject\dao\ContactService.class
+com\test\javaproject\domains\User.class
+com\test\javaproject\dao\ServiceDAO.class
+com\test\javaproject\dao\WorkService.class
+com\test\javaproject\dao\ContactDAO.class
+com\test\javaproject\controllers\ContactController.class
+com\test\javaproject\domains\RegEx.class
+com\test\javaproject\domains\Contact.class
+com\test\javaproject\domains\LoginTempObject.class
+com\test\javaproject\controllers\LoginController.class
+com\test\javaproject\dao\UserDAO.class
+com\test\javaproject\domains\SearchObject.class
