@@ -8,7 +8,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link href="<c:url value="/resources/css/registUpdate.css" />" rel="stylesheet">
+<link href="./resources/css/registUpdate.css" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>User registration</title>
 </head>
@@ -42,13 +42,13 @@
 			<input type="submit" class="button" value="<spring:message code="Button.value.save"/>">
 			<a href="<c:url value='/startPage'/>" class="button"><spring:message code="ReturnToStartPage"/></a>
 		
-			<c:choose>
+	    <c:choose>
                <c:when test="${edit1}">
                  <div class="divErr"><spring:message code="ErrText.registration.errSymbols"/></div>
                </c:when>          
             </c:choose>         
 			
-			<c:choose>
+	    <c:choose>
                <c:when test="${edit2}">
                  <div class="divErr"><spring:message code="ErrText.registration.errExist"/></div>
                </c:when>          
