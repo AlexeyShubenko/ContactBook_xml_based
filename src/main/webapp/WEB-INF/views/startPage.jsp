@@ -12,7 +12,14 @@
 </head>
 <body>
 
+
+<div>
 	<form:form method="POST" modelAttribute="loginObject" action="checkLoginUser" class="box">
+
+		<div>
+			${error}
+		</div>
+
 		<form:label path="loginName">Login:</form:label>
 		<form:input path="loginName" name="login" />
 		
@@ -20,14 +27,10 @@
 		<form:password path="password" name="pass"/>
 		
 		<input type="submit" value="Continue" /> 
-		<a href="<c:url value='userRegistration' />">Registration</a><br/>
+		<a href="./userRegistration">Registration</a><br/>
 
-		<c:choose>
-               <c:when test="${edit}">
-                 <div class="divErr"><spring:message code="ErrText.isExisting"/></div>
-               </c:when>          
-            </c:choose>
 	</form:form>
+</div>
 
 </body>
 </html>

@@ -4,9 +4,7 @@ import javax.validation.constraints.Size;
 
 public class LoginTempObject {
 
-	@Size(min = 3)
 	private String loginName;
-	@Size(min = 3)
 	private String password;
 	
 	public LoginTempObject(){}

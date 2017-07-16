@@ -17,8 +17,8 @@
 		
 		<h1 id="NoteCentr"><spring:message code="title.logout"/></h1>
 		<div class="buttons">
-		<a href="<c:url value='/exit'/>" class="button"><spring:message code="LogOut"/></a>
-		<a href="<c:url value='/showContacts'/>" class="button"><spring:message code="ReturnToMainPage"/></a>
+		<a href="./exit" class="button"><spring:message code="logOut"/></a>
+		<a href="./showContacts" class="button"><spring:message code="returnToMainPage"/></a>
 		</div>
 </body>
 </html>

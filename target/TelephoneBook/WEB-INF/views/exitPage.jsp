@@ -7,7 +7,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<link href="<c:url value="/resources/css/logout.css" />" rel="stylesheet">
+<link href="./resources/css/logout.css" rel="stylesheet">
 <title>Log out</title>
 </head>
 <body>
@@ -17,8 +17,8 @@
 		
 		<h1 id="NoteCentr"><spring:message code="title.logout"/></h1>
 		<div class="buttons">
-		<a href="<c:url value='/exit'/>" class="button"><spring:message code="LogOut"/></a>
-		<a href="<c:url value='/showContacts'/>" class="button"><spring:message code="ReturnToMainPage"/></a>
+		<a href="./exit" class="button"><spring:message code="logOut"/></a>
+		<a href="./showContacts" class="button"><spring:message code="returnToMainPage"/></a>
 		</div>
 </body>
 </html>

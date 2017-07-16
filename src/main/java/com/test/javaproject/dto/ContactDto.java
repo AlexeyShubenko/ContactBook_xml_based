@@ -9,16 +9,16 @@ public class ContactDto implements Serializable{
 
 	private int contact_id;
 
-	@Size(min=4, message="{Contact.size.name}")
+	@Size(min=4, message="{contact.size.name}")
 	private String firstName;
 
-	@Size(min=4, message="{Contact.size.name}")
+	@Size(min=4, message="{contact.size.name}")
 	private String lastName;
 
-	@Size(min=4, message="{Contact.size.name}")
+	@Size(min=4, message="{contact.size.name}")
 	private String middleName;
 
-	@Size(min=15, max=15, message="{Contact.size.phNumber}")
+	@Size(min=15, max=15, message="{contact.size.phNumber}")
 	private String mobPhoneNumber;
 
 	private String homePhoneNumber;
@@ -57,7 +57,7 @@ public class ContactDto implements Serializable{
 		}
 
 		public Builder setLastName(Contact contact){
-			contactDto.setLastName(contact.getFirstName());
+			contactDto.setLastName(contact.getLastName());
 			return this;
 		}
 
@@ -92,43 +92,56 @@ public class ContactDto implements Serializable{
 
 	public int getContact_id() {
 		return contact_id;
-	}	
+	}
+
 	public void setContact_id(int contact_id) {
 		this.contact_id = contact_id;
 	}
+
 	public String getFirstName() {
 		return firstName;
 	}
-	public void setFirstName(String firstname) {
-		this.firstName = firstname;
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
+
 	public String getLastName() {
 		return lastName;
 	}
-	public void setLastName(String lastname) {
-		this.lastName = lastname;
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
+
 	public String getMiddleName() {
 		return middleName;
 	}
-	public void setMiddleName(String middlename) {
-		this.middleName = middlename;
+
+	public void setMiddleName(String middleName) {
+		this.middleName = middleName;
 	}
+
 	public String getMobPhoneNumber() {
 		return mobPhoneNumber;
 	}
+
 	public void setMobPhoneNumber(String mobPhoneNumber) {
 		this.mobPhoneNumber = mobPhoneNumber;
 	}
+
 	public String getHomePhoneNumber() {
 		return homePhoneNumber;
 	}
+
 	public void setHomePhoneNumber(String homePhoneNumber) {
 		this.homePhoneNumber = homePhoneNumber;
-	}	
+	}
+
 	public String getAddress() {
 		return address;
 	}
+
 	public void setAddress(String address) {
 		this.address = address;
 	}
@@ -136,6 +149,7 @@ public class ContactDto implements Serializable{
 	public String getEmail() {
 		return email;
 	}
+
 	public void setEmail(String email) {
 		this.email = email;
 	}

@@ -1,25 +1,20 @@
 package com.test.javaproject.dto;
 
-import com.test.javaproject.domains.Contact;
 import com.test.javaproject.domains.User;
-
-import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 public class UserDto implements Serializable{
 
 	private int user_id;
 
-	@Size(min=3, message="{User.size.login}")
+	@Size(min=3, message="{user.size.login}")
 	private String loginName;
 
-	@Size(min=5, message="{User.size.password}")
+	@Size(min=5, message="{user.size.password}")
 	private String password;
 
-	@Size(min=5, message="{User.size.fio}")
+	@Size(min=5, message="{user.size.fio}")
 	private String fio;
 
 	public UserDto(){}

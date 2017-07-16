@@ -20,16 +20,16 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	
-	<context:component-scan base-package="com.test.javaproject.controllers.**" />
-	
-	<bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-		<property name="basename" value="/WEB-INF/locales/messages" />
+	<context:component-scan base-package="com.test.javaproject.**" />
+
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename" value="messages" />
 		<property name="defaultEncoding" value="UTF-8" />
 	</bean>
 	
-	<bean id="service" class="com.test.javaproject.dao.WorkService"/>
-	<bean id="userService" class="com.test.javaproject.dao.UserService"/>
-	<bean id="contactService" class="com.test.javaproject.dao.ContactService"/>
+	<bean id="service" class="com.test.javaproject.dao.impl.WorkService"/>
+	<bean id="userServiceImpl" class="com.test.javaproject.dao.impl.UserServiceImpl"/>
+	<bean id="contactServiceImpl" class="com.test.javaproject.dao.impl.ContactServiceImpl"/>
 	<bean id="search" class="com.test.javaproject.domains.SearchObject"/>
 	
 	
